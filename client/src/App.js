@@ -2,9 +2,11 @@
 
 import { Route } from 'react-router-dom';
 import React, { Component } from 'react';
-import Customer from './Customer.js';
-import Support from './Support.js';
+import Customer from './Customer';
+import Support from './Support';
 
+import './normalize.css';
+import './skeleton.css';
 import './App.css';
 
 class App extends Component {
